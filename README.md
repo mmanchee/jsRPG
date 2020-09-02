@@ -40,7 +40,6 @@ object Page {text: , items: {text: , item: }, next: } // as you grab items they 
 |  9. Levelup function, determines if exp is high enough to get more skill or stat points | exp is high enough | skill or stat point |
 |  10. PowerLevel function, changes power level as game progresses | choice made | power changes |
 |  11. character Page, buttons to add skills or stats | character | add |
-|  1. ... | ... | ... |
 
 
 ## Setup/Installation Requirements
