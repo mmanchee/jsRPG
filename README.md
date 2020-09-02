@@ -19,11 +19,11 @@ Family - Montagues and Capulets
 Classes - Strong Man, Thief, Strategist, Scientist, Survivalist
 Skills - Lock pick, forestry, intuition, persuasion, hide, fight, power gain, science
 Stats - Strength, Intellect, Charm, Wisdom, Power
-class Game {char: {}, Exp: , previous: }
+class Game {char: {}, Exp: , previous: [] ,pages: []}
 class Player {Name: , Family: ,class: ,skills: {}, stats {}}
 class Skills {lockPick: , forestry: , intuition: , persuasion: , hide: , fight: , powerGain: , science: }
 class Stats {Strength: , Intellect: , Charm: , Wisdom: , Power: }
-object Page {text: , items: {text: , item: }, next: } // as you grab items they are removed
+class Pages {page: ,text: , items: {text: , item: }, next: } // as you grab items they are removed
 $("#story").append
 <div id="story">
   text Here
@@ -40,13 +40,14 @@ $("#story").append
 |  2. Create a constructor Player, Skills, Stats | Input | let player |
 |  3. addSS function, adds Skills and Stats to player | Stats and Skills | player.skills |
 |  4. addPlayer function, adds player to game | player | game.player |
-|  5. Choice Arrays, how each choice has a can be accomplished | options | choiceArray |
-|  6. Choice Function, determine which options are available | choiceArray | storyOptions |
-|  7. GrabItem Function, grab item and repeat previous choice | grab choice | go back to previous |
-|  8. Exp function, add exp to game | choice made | exp gained |
-|  9. Levelup function, determines if exp is high enough to get more skill or stat points | exp is high enough | skill or stat point |
-|  10. PowerLevel function, changes power level as game progresses | choice made | power changes |
-|  11. character Page, buttons to add skills or stats | character | add |
+|  5. Create a constructor Pages | Input | let page |
+|  6. Choice Arrays, how each choice has a can be accomplished | options | choiceArray |
+|  7. Choice Function, determine which options are available | choiceArray | storyOptions |
+|  8. GrabItem Function, grab item and repeat previous choice | grab choice | go back to previous |
+|  9. Exp function, add exp to game | choice made | exp gained |
+|  10. Levelup function, determines if exp is high enough to get more skill or stat points | exp is high enough | skill or stat point |
+|  11. PowerLevel function, changes power level as game progresses | choice made | power changes |
+|  12. character Page, buttons to add skills or stats | character | add |
 
 
 ## Setup/Installation Requirements

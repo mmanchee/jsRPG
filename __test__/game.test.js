@@ -8,3 +8,7 @@ describe('Game', () => {
     expect(ourGame.previous).toEqual([]);
   });
 });
+describe('addPlayer', () => {
+
+  test('should correctly add player to the game.character')
+})

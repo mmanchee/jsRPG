@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TITLE</title>
 </head>
 <body>
   <div class="container">
-    
+    <form id="create-character">
+      <div class="jumbotron">
+        <h1>Character Creator</h1>
+      </div>
+      <div  class="form-row">
+        <label class="col-3" for="name">Character Name</label>
+        <input id="name" class="form-control col-4" type="text">
+      </div>
+      <div class="form-row mt-3">
+        <div class="col-6">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="familySelector" id="radio1" value="Montagues" checked>
+            <label class="form-check-label" for="radio1"> Choose Montagues</label>
+          </div>
+          <p>Some stuff about Montagues!</p>
+        </div>
+        <div class="col-6">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="familySelector" id="radio2" value="Capulets">
+            <label class="form-check-label" for="radio2"> Choose Capulets</label>
+          </div>
+          <p>Some stuff about Capulets!</p>
+        </div>
+          
+      </div>
+      <div>
+        <button type="submit" class="btn btn-info">Choose your family</button>
+      </div>
+    </form>
   </div>
 </body>
 </html>
