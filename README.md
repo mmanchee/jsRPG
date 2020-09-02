@@ -20,7 +20,7 @@ Classes - Strong Man, Thief, Strategist, Scientist, Survivalist
 Skills - Lock pick, forestry, intuition, persuasion, hide, fight, power gain, science
 Stats - Strength, Intellect, Charm, Wisdom, Power
 class Game {char: {}, Exp: , previous: }
-class Player {Name: , Family: , skills: {}, stats {}}
+class Player {Name: , Family: ,class: ,skills: {}, stats {}}
 class Skills {lockPick: , forestry: , intuition: , persuasion: , hide: , fight: , powerGain: , science: }
 class Stats {Strength: , Intellect: , Charm: , Wisdom: , Power: }
 object Page {text: , items: {text: , item: }, next: } // as you grab items they are removed
