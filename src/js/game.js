@@ -4,5 +4,7 @@ export class Game {
     this.exp = 0,
     this.previous = []
   }
-
+  addPlayer() {
+    
+  }
 }

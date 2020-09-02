@@ -24,7 +24,14 @@ class Player {Name: , Family: ,class: ,skills: {}, stats {}}
 class Skills {lockPick: , forestry: , intuition: , persuasion: , hide: , fight: , powerGain: , science: }
 class Stats {Strength: , Intellect: , Charm: , Wisdom: , Power: }
 object Page {text: , items: {text: , item: }, next: } // as you grab items they are removed
+$("#story").append
+<div id="story">
+  text Here
+  
 
+  text here 2  
+  choice
+</div>
 -->
 ### Specs
 | Spec | Input | Output |

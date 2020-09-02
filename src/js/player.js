@@ -4,4 +4,10 @@ export class Player {
     this.family = family,
     this.charClass = charClass
   }
+  addStats() {
+
+  }
+  addSkills() {
+    
+  }
 }
