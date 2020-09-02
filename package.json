@@ -1,7 +1,7 @@
 {
-  "name": "rpg",              
+  "name": "rpg",
   "version": "1.0.0",
-  "description": "An RPG (Role Playing Game) to enjoy.",      
+  "description": "An RPG (Role Playing Game) to enjoy.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
