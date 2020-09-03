@@ -10,3 +10,8 @@ export class Skills {
   this.science = science
   }
 }
+
+// [{name: lochPick, value: #}{name: forestry, value: #}{}{}]
+// let skills = {lockpick: 4, forestry: 3}
+// lockpickVal = skills["lockpick"] 
+// currentSkillNum === skills[currentSkill] 

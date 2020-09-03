@@ -5,35 +5,110 @@
 </head>
 <body>
   <div class="container">
-    <form id="create-character">
+    <div id="character-creator">
       <div class="jumbotron">
         <h1>Character Creator</h1>
       </div>
-      <div  class="form-row">
-        <label class="col-3" for="name">Character Name</label>
-        <input id="name" class="form-control col-4" type="text">
-      </div>
-      <div class="form-row mt-3">
-        <div class="col-6">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="familySelector" id="radio1" value="Montagues" checked>
-            <label class="form-check-label" for="radio1"> Choose Montagues</label>
-          </div>
-          <p>Some stuff about Montagues!</p>
+    
+      <form id="family-choice">
+        
+        <div  class="form-row">
+          <label class="col-3" for="name">Character Name</label>
+          <input id="name" class="form-control col-4" type="text">
         </div>
-        <div class="col-6">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="familySelector" id="radio2" value="Capulets">
-            <label class="form-check-label" for="radio2"> Choose Capulets</label>
+        <div class="form-group mt-3">
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="familySelector" id="radio1" value="Montagues" checked>
+                <label class="form-check-label" for="radio1"> Choose Montagues</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Montagues!</p>
+            </div>
           </div>
-          <p>Some stuff about Capulets!</p>
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="familySelector" id="radio2" value="Capulets">
+                <label class="form-check-label" for="radio2"> Choose Capulets</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Capulets!</p>
+            </div>
+          </div>
         </div>
-          
-      </div>
-      <div>
-        <button type="submit" class="btn btn-info">Choose your family</button>
-      </div>
-    </form>
+        <div>
+          <button type="submit" class="btn btn-info">Choose your Family</button>
+        </div>
+      </form>
+      <form id="class-choice">
+        <div class="form-group mt-3">
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="class-selector" id="class1" value="Heavy" checked>
+                <label class="form-check-label" for="class1">Heavy</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Heavy!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="class-selector" id="class2" value="Thief">
+                <label class="form-check-label" for="class2">Thief</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Thief!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="class-selector" id="class3" value="Strategist">
+                <label class="form-check-label" for="class3">Strategist</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Strategist!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="class-selector" id="class4" value="Scientist">
+                <label class="form-check-label" for="class4">Scientist</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Scientist!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 ml-5">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="class-selector" id="class5" value="Survivalist" checked>
+                <label class="form-check-label" for="class5">Survivalist</label>
+              </div>
+            </div>
+            <div class="col-6">
+              <p>Some stuff about Survivalist!</p>
+            </div>
+          </div>
+        <div>
+          <button type="submit" class="btn btn-info">Choose your Class</button>
+        </div>
+      </form>
+      <form id="ss-choice">
+
+      </form>
+    </div>
   </div>
 </body>
 </html>

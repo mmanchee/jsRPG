@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './../css/styles.css';
 
 $(document).ready(function() {
-  $("#create-character").submit(function() {
+  $("#family-choice").submit(function(event) {
+    event.preventDefault();
     let name = $("input#name").val();
 
   })

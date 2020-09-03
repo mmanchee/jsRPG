@@ -7,6 +7,7 @@ describe('Player', () => {
       expect(player.name).toEqual("Alma");
       expect(player.family).toEqual("Montagues");
       expect(player.charClass).toEqual("Scientist");
+      expect(player.items).toEqual([]);
   });
 });
 describe('addStats', () => {
