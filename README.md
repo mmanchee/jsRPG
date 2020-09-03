@@ -40,7 +40,7 @@ $("#story").append
 |  2. Create a constructor Player, Skills, Stats | Input | let player |
 |  3. addSS function, adds Skills and Stats to player | Stats and Skills | player.skills |
 |  4. addPlayer function, adds player to game | player | game.player |
-|  5. Create a constructor Pages | Input | let page |
+|  5. Create a Pages Object | Input | let page |
 |  6. Choice Arrays, how each choice has a can be accomplished | options | choiceArray |
 |  7. Choice Function, determine which options are available | choiceArray | storyOptions |
 |  8. GrabItem Function, grab item and repeat previous choice | grab choice | go back to previous |
